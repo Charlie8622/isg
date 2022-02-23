@@ -8,6 +8,48 @@
 </head>
 <body>
     <h1>Open API</h1>
-    <div id="output"></div>
+    <ul id="output"></ul>
 </body>
+
+<script>
+
+async function fetchCollection() {
+    let url = `https://raw.githubusercontent.com/Charlie8622/isg/v1/endpoint/collection.json`
+    try {
+      let response = await fetch(url);
+      console.log(`${response.status}`); 
+      return await response.json()
+    } catch (error) {
+      console.log(error);
+    }
+}
+
+async function getCollection() {
+    let collection = await fetchCollection();
+    let html = '';
+    collection.forEach(item => {
+        let htmlSegment = 
+        `<li class="product">
+            <img src="${item.image}" alt="">
+            <h2>
+              <small>${item.brand}</small>
+              <span>${item.model}</span>
+            </h2>
+            <div>
+                <p>${item.price}</p>
+                <p>${item.dateModified}</p>
+                <a href="${item.image}">${item.model}</a>
+            </div>
+        </li>`;
+
+        html += htmlSegment;
+    });
+
+    let container = document.querySelector('#output');
+    container.innerHTML = html;
+}
+
+getCollection();
+
+</script>
 </html>
