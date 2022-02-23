@@ -2,7 +2,7 @@
     {
 		"id":"0016596",
 		"sku":"0016596",
-		"image":"https://github.com/Charlie8622/isg/blob/v1/images/iPhone-5.jpeg",
+		"image":"https://raw.githubusercontent.com/Charlie8622/isg/3c7acc0595e815d5d3b80ce02104553e35440799/images/iPhone-5.jpeg",
 		"brand":"Apple",
 		"model":"iPhone SE 5",
 		"price":"399.99",
@@ -13,7 +13,7 @@
 	{
 		"id":"0016597",
 		"sku":"0016597",
-		"image":"https://github.com/Charlie8622/isg/blob/v1/images/iPhone-11.jpeg",
+		"image":"https://raw.githubusercontent.com/Charlie8622/isg/3c7acc0595e815d5d3b80ce02104553e35440799/images/iPhone-11.jpeg",
 		"brand":"iPhone",
 		"model":"iPhone 11",
 		"price":"599.99",
@@ -24,7 +24,7 @@
 	{
 		"id":"0016598",
 		"sku":"0016598",
-		"image":"https://github.com/Charlie8622/isg/blob/v1/images/iPhone-12.jpeg",
+		"image":"",
 		"brand":"iPhone",
 		"model":"iPhone 12",
 		"price":"799.99",
@@ -35,7 +35,7 @@
 	{
 		"id":"0016599",
 		"sku":"0016599",
-		"image":"https://github.com/Charlie8622/isg/blob/v1/images/iPhone-13.jpeg",
+		"image": "https://raw.githubusercontent.com/Charlie8622/isg/3c7acc0595e815d5d3b80ce02104553e35440799/images/iPhone-13.jpeg",
 		"brand":"iPhone",
 		"model":"iPhone 13",
 		"price":"999.99",
